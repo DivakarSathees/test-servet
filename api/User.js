@@ -756,7 +756,7 @@ console.log("hai")
 //send verification email
 const sendVerficationEmail = ({_id, email}, res) => {
     //url to be used in the email
-    const currentUrl = "https://ancient-chamber-26587.herokuapp.com/";
+    const currentUrl = "https://login-api-ybui.onrender.com/";
     // const currentUrl = "https://hjk-app.herokuapp.com/";
 
     const uniqueString = uuidv4() + _id;
